@@ -7,6 +7,16 @@
 body {
     font-weight: bold;
 }
+
+/* background */
+
+.bg-light {
+    background-color: #121212;
+}
+
+.bg-dark {
+    background-color: #040404;
+}
 /* font-styles */
 
 .menu-style {
@@ -14,15 +24,23 @@ body {
     text-transform: uppercase;
 }
 
+.card-style-top {
+    font-size: 20px;
+    color: white;
+}
 
+.card-style-bottom {
+    font-size: 14px;
+}
+
+i {
+    color: white;
+}
+
+/* containers */
 
   .container {
       display: flex;
-  }
-
-  aside {
-      height: 95vh;
-      width: 10vw;
   }
 
   .container-center {
@@ -30,10 +48,26 @@ body {
     width: calc(100% - 10vw);
   }
 
+/* aside */
+
+  aside {
+      height: 95vh;
+      width: 10vw;
+      text-align: center;
+  }
+
+  .main-logo, .sidebar-logo {
+      margin: 5px;
+  }
+
+/* header */
+
   header {
       width: calc(100% - 10vh);
       height: 5vh;
   }
+
+  /* main */
 
   main {
 
