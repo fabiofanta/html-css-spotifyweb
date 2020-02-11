@@ -143,5 +143,9 @@ main {
 
   footer {
       height: 10%;
+  }
 
+  .player {
+      padding: 5px 2px;
+      display: flex;
   }
