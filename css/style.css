@@ -44,7 +44,7 @@ i {
   }
 
   .container-center {
-    height: calc(100% - 20vh);
+    /* height: calc(100% - 20vh); */
     width: calc(100% - 10vw);
   }
 
@@ -69,8 +69,8 @@ i {
 /* header */
 
   header {
-      width: calc(100% - 10vh);
-      height: 5vh;
+      display: flex;
+      /* justify-content: flex-end; */
   }
 
   /* main */
