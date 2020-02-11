@@ -52,12 +52,18 @@ i {
 
   aside {
       height: 95vh;
-      width: 10vw;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
       text-align: center;
   }
 
   .main-logo, .sidebar-logo {
       margin: 5px;
+  }
+
+  .aside-bottom {
+      align-self: flex-end;
   }
 
 /* header */
