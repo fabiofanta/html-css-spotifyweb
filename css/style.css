@@ -4,7 +4,37 @@
     box-sizing: border-box;
   }
 
+body {
+    font-weight: bold;
+}
+/* font-styles */
+
+.menu-style {
+    font-size: 16;
+    text-transform: uppercase;
+}
+
+
+
   .container {
       display: flex;
-      flex-direction: column;
+  }
+
+  aside {
+      height: 95vh;
+      width: 10vw;
+  }
+
+  .container-center {
+    height: calc(100% - 20vh);
+    width: calc(100% - 10vw);
+  }
+
+  header {
+      width: calc(100% - 10vh);
+      height: 5vh;
+  }
+
+  main {
+
   }
