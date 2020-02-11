@@ -105,6 +105,10 @@ i {
     color: #282828;
 }
 
+.recently-played {
+    display: block;
+}
+
   /* footer */
 
   footer {
