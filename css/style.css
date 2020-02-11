@@ -95,10 +95,15 @@ i {
 
   /* main */
 
-  main {
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
-
-  }
+.selector {
+    color: #282828;
+}
 
   /* footer */
 
