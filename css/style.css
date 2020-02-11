@@ -95,6 +95,10 @@ i {
 
   /* main */
 
+main {
+    padding: 20px;
+}
+
 .menu {
     display: flex;
     justify-content: center;
@@ -107,6 +111,26 @@ i {
 
 .recently-played {
     display: block;
+}
+
+.recently-played .card-style-top {
+    margin: 25px 0;
+}
+
+.card {
+    width: 200px;
+}
+
+.card-title {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.card-artist {
+    color: #282828;
+    display: flex;
+    justify-content: center;
 }
 
   /* footer */
