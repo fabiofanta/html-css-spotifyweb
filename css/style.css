@@ -17,6 +17,10 @@ body {
 .bg-dark {
     background-color: #040404;
 }
+
+.bg-gray {
+    background-color: #282828;
+}
 /* font-styles */
 
 .menu-style {
@@ -40,18 +44,25 @@ i {
 /* containers */
 
   .container {
+      height: 100vh;
+      width: 100vw;
+  }
+
+  .container-flex {
       display: flex;
+      height: 90%;
   }
 
   .container-center {
     /* height: calc(100% - 20vh); */
-    width: calc(100% - 10vw);
+    width: calc(100% - 30px);
+    height: 100%;
   }
 
 /* aside */
 
   aside {
-      height: 95vh;
+      width: 30px;
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
@@ -70,11 +81,28 @@ i {
 
   header {
       display: flex;
-      /* justify-content: flex-end; */
+      justify-content: flex-end;
+  }
+
+  header button {
+      text-transform: uppercase;
+      color: white;
+      padding: 5px 20px;
+      border-radius: 10%;
+      font-weight: bold;
+      font-size: 12px;
   }
 
   /* main */
 
   main {
+
+
+  }
+
+  /* footer */
+
+  footer {
+      height: 10%;
 
   }
