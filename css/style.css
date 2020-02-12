@@ -99,12 +99,13 @@ header button {
     font-size: 12px;
     height: 40px;
     border: 2px solid white;
+    cursor: pointer;
 }
 
   /* main */
 
 main {
-    padding: 20px;
+    padding: 5px 15px;
 }
 
 .menu {
@@ -115,6 +116,12 @@ main {
 
 .selector {
     color: #919496;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+.selector:hover {
+    border-bottom: 2px solid lightgreen;
 }
 
 .recently-played {
