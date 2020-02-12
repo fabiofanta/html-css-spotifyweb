@@ -10,6 +10,11 @@ body {
     background-color: #121212;
 }
 
+a,.selector {
+    cursor: pointer;
+    text-decoration: none;
+}
+
 /* background */
 
 .bg-light {
@@ -66,7 +71,7 @@ aside {
     flex-direction: column;
     text-align: center;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .sidebar-logo,.main-logo,.spotify-logo {
@@ -91,14 +96,13 @@ aside {
 
 .logo-caption {
     display: none;
-    color: #919496;
+    font-size: 10px;
     /* s --> display=inline */
 }
 
 .aside-middle {
     display: none;
-    margin-top: 20px;
-    color: #919496;
+    margin-left: 10px;
     /* s -->display=block */
 }
 .add-playlist {
@@ -108,14 +112,21 @@ aside {
     /* s ---> display=flex */
 }
 
+.add-playlist a,.add-playlist .fas,.playlist-names a {
+    color: #919496;
+}
+
 .playlist-names {
     margin-bottom: 20px;
-    font-size: 14px;
+    font-size: 10px;
     display: none;
     /* s --->display=block */
 }
 
-
+.playlist-names a {
+    margin-bottom: 15px;
+    display: block;
+}
 
 .playlist-names p:hover, .add-playlist:hover {
     color: white;
@@ -166,7 +177,6 @@ main {
 .selector {
     color: #919496;
     margin: 10px 10px;
-    cursor: pointer;
 }
 
 .selector:hover {
@@ -315,6 +325,7 @@ footer {
 
     aside {
         width: 200px;
+        text-align: left;
     }
 
     .container-center {
@@ -338,6 +349,7 @@ footer {
     }
     .add-playlist {
         display: flex;
+        align-items: center;
 
     }
     .playlist-names {
@@ -346,5 +358,7 @@ footer {
 
     .underlined {
         border-bottom: 1px solid white;
+        width: 100%;
+        padding-bottom: 5px;
     }
 }
