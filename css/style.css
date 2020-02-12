@@ -69,13 +69,54 @@ aside {
     align-items: center;
 }
 
-.sidebar-logo,.main-logo {
+.sidebar-logo,.main-logo,.spotify-logo {
     margin: 10px;
 }
 
 .main-logo {
     margin-bottom: 15px;
+    /* s -->display=none */
 }
+
+.spotify-logo {
+    margin-bottom: 15px;
+    display: none;
+}
+
+.spotify-logo img {
+    height: 50px;
+    width: 80px;
+}
+
+.logo-caption {
+    display: none;
+    /* s --> display=inline */
+}
+
+.aside-middle {
+    display: none;
+    margin-top: 20px;
+    color: #919496;
+    /* s -->display=block */
+}
+.add-playlist {
+    display: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /* s ---> display=flex */
+}
+
+.playlist-names {
+    margin-bottom: 20px;
+    font-size: 14px;
+    display: none;
+    /* s --->display=block */
+}
+
+.playlist-names:hover, .add-playlist:hover {
+    color: white;
+}
+
 
 /* header */
 
