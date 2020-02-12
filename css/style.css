@@ -84,17 +84,20 @@ aside {
 
 header {
     display: flex;
+    height: 80px;
     justify-content: flex-end;
+    padding: 10px;
 
 }
 
 header button {
     text-transform: uppercase;
     color: white;
-    padding: 5px 20px;
-    border-radius: 10%;
+    padding: 0 45px;
+    border-radius: 30px;
     font-weight: bold;
     font-size: 12px;
+    height: 40px;
 }
 
   /* main */
