@@ -147,6 +147,7 @@ footer {
     display: flex;
     width: 100%;
     height: 100%;
+    justify-content: space-between;
   }
 
 .song-display {
@@ -168,13 +169,60 @@ footer {
     color: white;
   }
 
-.player-icon {
+.player-folder {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.player-icon i {
+.player-folder i {
     color: #919496;
     font-size: 14px;
+}
+
+.player-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+.player-buttons {
+    display: flex;
+}
+
+.player-buttons i {
+    color: white;
+}
+
+.player-buttons .far {
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+.player-bar {
+    display: flex;
+}
+
+.time-bar {
+    width: 150px;
+    height: 3px;
+    background-color: #919496;
+    border-radius: 10px;
+}
+
+.player-right {
+    display: flex;
+}
+
+.player-right i {
+    color: white;
+    margin-right: 10px;
+}
+
+.volume-bar {
+    width: 80px;
+    height: 3px;
+    background-color: #919496;
+    border-radius: 10px;
 }
