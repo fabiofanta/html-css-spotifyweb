@@ -65,10 +65,15 @@ aside {
     flex-direction: column;
     text-align: center;
     justify-content: space-between;
+    align-items: center;
 }
 
-.main-logo, .sidebar-logo {
-    margin: 5px;
+.sidebar-logo,.main-logo {
+    margin: 10px;
+}
+
+.main-logo {
+    margin-bottom: 15px;
 }
 
 /* header */
