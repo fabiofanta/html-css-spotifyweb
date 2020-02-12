@@ -46,7 +46,7 @@ a,.selector {
 }
 
 aside i {
-    color: white;
+    color: #919496;
     font-size: 20px;
 }
 
@@ -94,6 +94,10 @@ aside {
     width: 100px;
 }
 
+.sidebar-logo a:hover,.add-playlist a:hover,.playlist-names a:hover{
+    color: white;
+}
+
 .logo-caption {
     display: none;
     font-size: 10px;
@@ -127,11 +131,6 @@ aside {
     margin-bottom: 15px;
     display: block;
 }
-
-.playlist-names p:hover, .add-playlist:hover {
-    color: white;
-}
-
 
 /* header */
 
@@ -334,6 +333,10 @@ footer {
 
     .main-logo i {
         display: none;
+    }
+
+    .main-logo {
+        margin-left: 0;
     }
 
     .spotify-logo {
