@@ -46,55 +46,51 @@ i {
 
 /* containers */
 
-  .container {
-      height: 100vh;
-      width: 100vw;
-  }
+.container {
+    height: 100vh;
+    width: 100vw;
+}
 
-  .container-flex {
-      display: flex;
-      height: 90%;
-  }
-
-  .container-center {
-    /* height: calc(100% - 20vh); */
-    width: calc(100% - 30px);
-    height: 100%;
-  }
+.container-flex {
+    display: flex;
+    width: 100%;
+    height: calc(100% - 80px);
+}
 
 /* aside */
 
-  aside {
-      width: 30px;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      text-align: center;
-  }
+aside {
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
 
-  .main-logo, .sidebar-logo {
-      margin: 5px;
-  }
-
-  .aside-bottom {
-      align-self: flex-end;
-  }
+.main-logo, .sidebar-logo {
+    margin: 5px;
+}
 
 /* header */
 
-  header {
-      display: flex;
-      justify-content: flex-end;
-  }
+.container-center {
+    width: calc(100% - 30px);
+}
 
-  header button {
-      text-transform: uppercase;
-      color: white;
-      padding: 5px 20px;
-      border-radius: 10%;
-      font-weight: bold;
-      font-size: 12px;
-  }
+header {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+header button {
+    text-transform: uppercase;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 10%;
+    font-weight: bold;
+    font-size: 12px;
+}
 
   /* main */
 
@@ -142,10 +138,34 @@ main {
   /* footer */
 
   footer {
-      height: 10%;
+    height: 80px;
+    width: 100vw;
   }
 
   .player {
-      padding: 5px 2px;
+    padding: 20px 10px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
+
+  .song-display {
       display: flex;
+  }
+
+  .song-display img {
+      /* width: 25px;
+      height: 25px; */
+  }
+
+  .title-singer-thumbnail {
+      font-size: 8px;
+      color: #919496;
+      margin-left: 10px;
+  }
+
+  #play-sing-name {
+      font-size: 9px;
+      color: white;
   }
