@@ -173,6 +173,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left:20px;
 }
 
 .player-folder i {
@@ -189,15 +190,17 @@ footer {
 }
 .player-buttons {
     display: flex;
+    margin-bottom: 10px;
 }
 
 .player-buttons i {
     color: white;
+    margin: 0 10px;
 }
 
 .player-buttons .far {
     margin: 0 20px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .player-bar {
@@ -213,6 +216,7 @@ footer {
 
 .player-right {
     display: flex;
+    align-items: center;
 }
 
 .player-right i {
