@@ -206,6 +206,13 @@ footer {
 
 .player-bar {
     display: flex;
+    align-items: center;
+}
+
+.timer {
+    font-size: 9px;
+    color: white;
+    margin: 0 10px;
 }
 
 .time-bar {
