@@ -7,6 +7,7 @@
 body {
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
+    background-color: #121212;
 }
 
 /* background */
@@ -86,7 +87,10 @@ header {
     display: flex;
     height: 80px;
     justify-content: flex-end;
+    align-items: center;
     padding: 10px;
+    background-color: rgba(4, 4, 4, 0.3);
+
 }
 
 header button {
