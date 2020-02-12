@@ -106,6 +106,7 @@ header button {
 
 main {
     padding: 5px 15px;
+    height: calc(100vh - 160px);
 }
 
 .menu {
@@ -127,8 +128,9 @@ main {
 .recently-played {
     display: flex;
     flex-wrap: wrap;
-    overflow-y: scroll;
-    height: 625px;
+    height: calc(100% - 154px);
+    overflow-y: auto;
+
 }
 
 .rp-paragraph {
