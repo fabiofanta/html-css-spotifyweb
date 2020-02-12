@@ -60,7 +60,7 @@ aside i {
 /* aside */
 
 aside {
-    width: 30px;
+    width: 40px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -79,7 +79,7 @@ aside {
 /* header */
 
 .container-center {
-    width: calc(100% - 30px);
+    width: calc(100% - 40px);
 }
 
 header {
@@ -125,7 +125,10 @@ main {
 }
 
 .recently-played {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    height: 625px;
 }
 
 .rp-paragraph {
@@ -136,6 +139,9 @@ main {
 
 .card {
     width: 150px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
 }
 
 .card-title {
