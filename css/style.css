@@ -191,6 +191,7 @@ footer {
 .player-buttons {
     display: flex;
     margin-bottom: 10px;
+    align-items: center;
 }
 
 .player-buttons i {
@@ -200,7 +201,7 @@ footer {
 
 .player-buttons .far {
     margin: 0 20px;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .player-bar {
