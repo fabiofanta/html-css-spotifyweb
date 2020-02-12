@@ -81,6 +81,7 @@ aside {
 .spotify-logo {
     margin-bottom: 15px;
     display: none;
+    /* s --> display=block */
 }
 
 .spotify-logo img {
@@ -90,6 +91,7 @@ aside {
 
 .logo-caption {
     display: none;
+    color: #919496;
     /* s --> display=inline */
 }
 
@@ -113,7 +115,9 @@ aside {
     /* s --->display=block */
 }
 
-.playlist-names:hover, .add-playlist:hover {
+
+
+.playlist-names p:hover, .add-playlist:hover {
     color: white;
 }
 
@@ -305,4 +309,42 @@ footer {
     height: 3px;
     background-color: #919496;
     border-radius: 10px;
+}
+
+@media screen and (min-width:768px){
+
+    aside {
+        width: 200px;
+    }
+
+    .container-center {
+        width: calc(100% - 100px);
+    }
+
+    .main-logo i {
+        display: none;
+    }
+
+    .spotify-logo {
+        display: block;
+    }
+
+    .logo-caption {
+        display: inline-block;
+    }
+
+    .aside-middle {
+        display: block;
+    }
+    .add-playlist {
+        display: flex;
+
+    }
+    .playlist-names {
+        display: block;
+    }
+
+    .underlined {
+        border-bottom: 1px solid white;
+    }
 }
