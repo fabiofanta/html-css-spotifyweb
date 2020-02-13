@@ -427,13 +427,6 @@ footer {
 
 }
 
-@media screen and (min-width:596px) {
-
-    .menu {
-        width: 525px;
-    }
-
-
 @media screen and (min-width:657px) {
 
     .scroll-bar {
@@ -445,15 +438,11 @@ footer {
         display: inline;
     }
 
-    .menu {
-        width: 600px;
-    }
-
 }
 @media screen and (min-width:768px){
 
     aside {
-        width: 215px;
+        width: 200px;
         text-align: left;
     }
 
@@ -466,7 +455,7 @@ footer {
     }
 
     .container-center {
-        width: calc(100% - 215px);
+        width: calc(100% - 200px);
     }
 
     .main-logo i {
