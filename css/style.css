@@ -179,7 +179,7 @@ main {
 
 .menu {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -429,9 +429,10 @@ footer {
 
 @media screen and (min-width:596px) {
 
-    .player {
-        justify-content: space-between;
+    .menu {
+        width: 525px;
     }
+
 
 @media screen and (min-width:657px) {
 
@@ -444,11 +445,15 @@ footer {
         display: inline;
     }
 
+    .menu {
+        width: 600px;
+    }
+
 }
 @media screen and (min-width:768px){
 
     aside {
-        width: 200px;
+        width: 215px;
         text-align: left;
     }
 
@@ -461,7 +466,7 @@ footer {
     }
 
     .container-center {
-        width: calc(100% - 100px);
+        width: calc(100% - 215px);
     }
 
     .main-logo i {
@@ -501,6 +506,10 @@ footer {
         border-bottom: 1px solid white;
         width: 100%;
         padding-bottom: 5px;
+    }
+
+    .menu {
+        width: inherit;
     }
 
     .time-bar {
