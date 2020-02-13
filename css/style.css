@@ -190,7 +190,7 @@ main {
 .scroll-bar {
     display: flex;
     flex-direction: column;
-    height: calc(100% - 154px);
+    height: 100%;
     overflow-y: auto;
 
 }
