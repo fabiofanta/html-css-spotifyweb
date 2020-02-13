@@ -428,16 +428,12 @@ footer {
 }
 
 @media screen and (min-width:596px) {
-    .volume-bar {
-        height: 3px;
-        width: 80px;
-    }
 
     .player {
         justify-content: space-between;
     }
 
-@media screen and (min-width:640px) {
+@media screen and (min-width:657px) {
 
     .recently-played,.created-by,.most-popular {
         justify-content: flex-start;
@@ -451,6 +447,7 @@ footer {
     .elementary-player {
         display: inline;
     }
+
 }
 @media screen and (min-width:768px){
 
@@ -512,6 +509,11 @@ footer {
 
     .time-bar {
         width: 300px;
+    }
+
+    .volume-bar {
+        height: 3px;
+        width: 80px;
     }
 
     .picture-thumbnail {
