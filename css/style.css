@@ -95,10 +95,10 @@ aside {
     width: 100px;
 }
 
-.aside-top .sidebar-logo:hover .sidebar-logo a ,.add-playlist:hover .add-playlist a,.playlist-names:hover .playlist-names a {
+.sidebar-logo:hover .fas,.sidebar-logo:hover a,.add-playlist:hover a,.add-playlist:hover .fas,.playlist-names a:hover {
     color: white;
-    border-left: 1px solid lightgreen;
 }
+border-left: 1px solid lightgreen;
 
 
 
