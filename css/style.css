@@ -186,18 +186,33 @@ main {
     border-bottom: 2px solid lightgreen;
 }
 
-.recently-played {
+.scroll-bar {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     height: calc(100% - 154px);
     overflow-y: auto;
 
+}
+
+.recently-played,.created-by,.most-popular {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .rp-paragraph {
     font-size: 20px;
     color: white;
     margin: 25px 0;
+}
+
+.fav-paragraph,.mpop-paragraph {
+    font-size: 20px;
+    color: white;
+    margin: 40px 0 5px;
+}
+
+.mpop-description,.fav-description {
+    margin-bottom: 20px;
 }
 
 .card {
