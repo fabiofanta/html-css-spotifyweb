@@ -437,6 +437,11 @@ footer {
         display: block;
     }
 
+    .sidebar-logo:hover,.add-playlist:hover,.playlist-names a:hover {
+        border-left: 3px solid #1db954;
+        border-radius: 2px;
+    }
+
     .underlined {
         border-bottom: 1px solid white;
         width: 100%;
@@ -453,6 +458,10 @@ footer {
         height: 32px;
     }
 
+    .name-song {
+        display: flex;
+    }
+
     .player-folder {
         display: flex;
         flex-direction: row;
@@ -462,13 +471,8 @@ footer {
         margin-right: 10px;
     }
 
-    .name-song {
-        display: flex;
-    }
-
-    .sidebar-logo:hover,.add-playlist:hover,.playlist-names a:hover {
-        border-left: 3px solid #1db954;
-        border-radius: 2px;
+    .folder i:hover,.player-right i:hover{
+        color: #1db954;
     }
 }
 
