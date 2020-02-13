@@ -215,11 +215,43 @@ main {
     margin-bottom: 20px;
 }
 
+.overlay {
+    opacity: 0;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card:hover .overlay {
+    opacity: 0.5;
+}
+
 .card {
     width: 180px;
     margin-right: 10px;
     margin-bottom: 10px;
+}
 
+.card-img {
+    width: 180px;
+    height: 180px;
+    position: relative;
+}
+
+.card span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+
+}
+
+.card:hover span {
+    opacity: 1;
 }
 
 .most-popular img {
