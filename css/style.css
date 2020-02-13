@@ -76,16 +76,16 @@ aside {
 }
 
 .sidebar-logo,.main-logo,.spotify-logo {
-    margin: 10px;
+    margin: 10px 10px 10px 0;
 }
 
 .main-logo {
     margin-bottom: 15px;
+    margin-left: 10px!important;
     /* s -->display=none */
 }
 
 .spotify-logo {
-    margin-bottom: 15px;
     display: none;
     /* s --> display=block */
 }
@@ -95,12 +95,18 @@ aside {
     width: 100px;
 }
 
+.sidebar-logo {
+    padding-left: 10px;
+}
+
 .sidebar-logo:hover .fas,.sidebar-logo:hover a,.add-playlist:hover a,.add-playlist:hover .fas,.playlist-names a:hover {
     color: white;
 }
-border-left: 1px solid lightgreen;
 
-
+.sidebar-logo:hover {
+    border-left: 3px solid lightgreen;
+    border-radius: 2px;
+}
 
 .logo-caption {
     display: none;
@@ -190,8 +196,8 @@ main {
 .scroll-bar {
     display: flex;
     flex-direction: column;
-    height: 100%;
-    overflow-y: auto;
+    height: calc(100% - 80px);
+    overflow-y: scroll;
 
 }
 
