@@ -103,7 +103,7 @@ aside {
     color: white;
 }
 
-.sidebar-logo:hover {
+.sidebar-logo:hover,.add-playlist:hover {
     border-left: 3px solid lightgreen;
     border-radius: 2px;
 }
