@@ -166,6 +166,10 @@ header button {
     cursor: pointer;
 }
 
+header button:hover {
+    background-color: #1db954;
+}
+
   /* main */
 
 main {
@@ -186,7 +190,7 @@ main {
 }
 
 .selector:hover {
-    border-bottom: 2px solid lightgreen;
+    border-bottom: 2px solid #1db954;
 }
 
 .scroll-bar {
@@ -444,7 +448,7 @@ footer {
     }
 
     .picture-thumbnail {
-        background-image: url("https://picsum.photos/22/22?random=20");
+        background-image: url("https://picsum.photos/32/32?random=20");
         width: 32px;
         height: 32px;
     }
@@ -463,7 +467,7 @@ footer {
     }
 
     .sidebar-logo:hover,.add-playlist:hover,.playlist-names a:hover {
-        border-left: 3px solid lightgreen;
+        border-left: 3px solid #1db954;
         border-radius: 2px;
     }
 }
