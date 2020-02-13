@@ -222,6 +222,10 @@ main {
 
 }
 
+.most-popular img {
+    border-radius: 50%;
+}
+
 .card-title {
     color: white;
     display: flex;
