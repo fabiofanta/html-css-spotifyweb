@@ -196,6 +196,7 @@ main {
 .scroll-bar {
     display: flex;
     flex-direction: column;
+    align-items: center;
     height: calc(100% - 80px);
     overflow-y: scroll;
 
@@ -204,6 +205,7 @@ main {
 .recently-played,.created-by,.most-popular {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .rp-paragraph {
@@ -448,6 +450,14 @@ footer {
         padding-bottom: 5px;
     }
 
+    .scroll-bar {
+        align-items: flex-start;
+    }
+
+    .recently-played,.created-by,.most-popular {
+        justify-content: flex-start;
+    }
+
     .time-bar {
         width: 300px;
     }
@@ -474,6 +484,8 @@ footer {
     .folder i:hover,.player-right i:hover{
         color: #1db954;
     }
+
+
 }
 
 @media screen and (min-width:1024px){
