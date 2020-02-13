@@ -537,6 +537,10 @@ footer {
         width: 550px;
     }
 
+    .recently-played,.created-by,.most-popular {
+        justify-content: flex-start;
+    }
+
 }
 
 @media screen and (min-width:1920px){
