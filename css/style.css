@@ -435,10 +435,6 @@ footer {
 
 @media screen and (min-width:657px) {
 
-    .recently-played,.created-by,.most-popular {
-        justify-content: flex-start;
-    }
-
     .scroll-bar {
         align-items: flex-start;
         text-align: inherit;
