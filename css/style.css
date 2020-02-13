@@ -103,11 +103,6 @@ aside {
     color: white;
 }
 
-.sidebar-logo:hover,.add-playlist:hover {
-    border-left: 3px solid lightgreen;
-    border-radius: 2px;
-}
-
 .logo-caption {
     display: none;
     font-size: 10px;
@@ -116,14 +111,14 @@ aside {
 
 .aside-middle {
     display: none;
-    margin-left: 10px;
     /* s -->display=block */
 }
 .add-playlist {
     display: none;
     margin-top: 10px;
     margin-bottom: 20px;
-    /* s ---> display=flex */
+    padding-left: 10px;
+/* s ---> display=flex */
 }
 
 .add-playlist a,.add-playlist .fas,.playlist-names a {
@@ -140,6 +135,7 @@ aside {
 .playlist-names a {
     margin-bottom: 15px;
     display: block;
+    padding-left: 10px;
 }
 
 /* header */
@@ -397,6 +393,14 @@ footer {
         text-align: left;
     }
 
+    .aside-top,.aside-middle,.aside-bottom {
+        width: 100%;
+    }
+
+    .sidebar-logo {
+        width: 100%;
+    }
+
     .container-center {
         width: calc(100% - 100px);
     }
@@ -456,6 +460,11 @@ footer {
 
     .name-song {
         display: flex;
+    }
+
+    .sidebar-logo:hover,.add-playlist:hover,.playlist-names a:hover {
+        border-left: 3px solid lightgreen;
+        border-radius: 2px;
     }
 }
 
