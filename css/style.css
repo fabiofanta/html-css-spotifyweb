@@ -193,19 +193,24 @@ main {
     border-bottom: 2px solid #1db954;
 }
 
+#find-out {
+    display: none;
+}
+
 .scroll-bar {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: calc(100% - 80px);
     overflow-y: scroll;
+    text-align: center;
 
 }
 
 .recently-played,.created-by,.most-popular {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .rp-paragraph {
@@ -324,7 +329,7 @@ footer {
 }
 
 .player-folder {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     margin-left:20px;
@@ -333,6 +338,10 @@ footer {
 .player-folder i {
     color: #919496;
     font-size: 14px;
+}
+
+.folder i:hover,.player-right i:hover{
+    color: #1db954;
 }
 
 .player-center {
@@ -392,6 +401,14 @@ footer {
     border-radius: 10px;
 }
 
+.elementary-player {
+    display: none;
+/* xs -->inline */
+}
+
+@media screen and (min-width:321px) {
+
+}
 @media screen and (min-width:768px){
 
     aside {
@@ -452,6 +469,7 @@ footer {
 
     .scroll-bar {
         align-items: flex-start;
+        text-align: inherit;
     }
 
     .recently-played,.created-by,.most-popular {
@@ -480,11 +498,6 @@ footer {
     .folder {
         margin-right: 10px;
     }
-
-    .folder i:hover,.player-right i:hover{
-        color: #1db954;
-    }
-
 
 }
 
